@@ -454,6 +454,18 @@ header {
           align-items: center;
 }
 
+@media only screen and (min-width: 1000px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,6 +474,9 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navegador__productos, .navegador__servicios {
@@ -473,6 +488,9 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* @FOOTER */
@@ -521,6 +539,42 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+/* @MAIN*/
+/* ********** */
+@media only screen and (min-width: 1000px) {
+  .imagenprincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+.imagenprincipal .imagencamarafrente {
+  width: 565,40px;
+  height: 400,05px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .imagenfinal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 /* @HOME */

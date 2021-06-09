@@ -1,0 +1,22 @@
+/* @MAIN*/
+/* ********** */
+
+.imagenprincipal{
+    @media only screen and (min-width: 1000px){
+        display: flex;
+        flex-direction: row-reverse }
+        .imagencamarafrente{
+            width: 565,40px;
+            height: 400,05px;
+        }
+        
+    }
+
+    .imagenfinal{
+        @media only screen and (min-width: 1000px){
+            display: flex;
+            flex-direction: row
+                      }
+    }
+
+    
