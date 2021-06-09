@@ -1,2 +1,36 @@
 /* @BOTONES */
 /* ********** */
+
+//boton header
+.botonHeader{
+    background-color: $boton;
+    color: white;
+    height: 50px;
+    width: 129px;
+    padding: 14,5px;
+    font-size: 18px;
+    }
+
+//boton Main
+.botonMain{
+    background-color: $boton;
+    color: white;
+    height:50px ;
+    width:296px ;
+    padding:14,5px ;
+    font-size:18px ;
+    border-radius:0px 50px 50px 0px;
+
+}
+
+//boton footer
+.botonFooter{
+    background-color: $boton;
+    color: white;
+    height:50px ;
+    width:328px ;
+    padding:16px ;
+    font-size:16px ;
+    border-radius: 25px;
+
+}

@@ -1,2 +1,31 @@
 /* @VARIABLES */
 /* ********** */
+
+//Colores
+$colorBackground: #F8F6EE;
+$colorNav:#FFE6D1;
+$boton:#F2624A;
+$colorFooter: #C4C4C4;
+
+//Tamaños
+$dispositivos:(
+    smarthpone:360px,
+    deskotp:1366px
+);
+
+$breakpoints:(
+    smartphone:320px,
+    desktop:1100px
+);
+    
+
+
+body{
+    background-color:$colorBackground;
+    padding: 16px;
+
+}
+
+footer{
+    background-color: $colorFooter;
+}
