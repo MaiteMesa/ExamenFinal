@@ -1,2 +1,22 @@
 /* @FOOTER */
 /* ********** */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .footertop{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .redes__lista{
+     justify-content: center;
+     padding: 0;
+ }
